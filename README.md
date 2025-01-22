@@ -56,6 +56,7 @@ cout << "qualcosa" << "qualcos'altro" << endl;
 
 # esempio di programma da esercizi guidati 1.1
 ```cpp
+/* Scrivere un programma che legga due interi da standard input e ne stampi la somma. */
 #include <iostream>
 using namespace std;
 
@@ -63,7 +64,9 @@ int main()
 {
 
 	int a, b;
-	cout << "Inserisci due numeri interi:" << endl;		
+	cout << "Inserisci due numeri interi:" << endl;
+	cin >> a >> b;
+	cout << a+b;
 
 }
 
